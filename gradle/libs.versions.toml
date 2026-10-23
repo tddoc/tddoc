@@ -1,9 +1,9 @@
 [versions]
-junit = "5.12.2"
+junit = "5.14.4"
 mavenPublish = "0.37.0"
 mavenPluginDev = "1.0.3"
-mavenPluginApi = "3.9.9"
-mavenPluginAnnotations = "3.15.1"
+mavenPluginApi = "3.9.16"
+mavenPluginAnnotations = "3.16.0"
 
 [plugins]
 mavenPublish = { id = "com.vanniktech.maven.publish", version.ref = "mavenPublish" }
