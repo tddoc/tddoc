@@ -57,8 +57,11 @@ original design rationale).
 - Released: 0.1.0 (core), 0.2.x (Gradle/Maven plugins as thin wrappers over
   SiteGen.main, tddoc.yml as primary config, --watch, recursive discovery),
   0.3.0 (design tokens + six built-in themes + --css/--style, multi-language
-  fence highlighting, dark/light toggle, neutral defaults). jbang catalog:
-  `jbang tddoc@tddoc`. Docs site auto-deploys to GitHub Pages on push to main.
+  fence highlighting, dark/light toggle, neutral defaults), 0.4.0 (brutalist
+  theme, tddoc's own site theme). jbang catalog: `jbang tddoc@tddoc`. Docs
+  site deploys to GitHub Pages on push to main and on tags, versioned: root =
+  latest release, /v/X.Y.Z/ = each older tag built by its own generator,
+  /next/ = main.
 - Config: tddoc.yml (flat subset, parsed by SiteGen.readConfig — public,
   plugins reuse it). Precedence: flag/explicit plugin config > yml > default.
   Yml-relative paths resolve against the yml's directory.
