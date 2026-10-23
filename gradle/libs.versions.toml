@@ -2,7 +2,7 @@
 junit = "5.14.4"
 mavenPublish = "0.37.0"
 mavenPluginDev = "1.0.3"
-mavenPluginApi = "3.9.16"
+mavenPluginApi = "3.10.0"
 mavenPluginAnnotations = "3.16.0"
 
 [plugins]
