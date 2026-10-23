@@ -13,7 +13,7 @@ jobs:
         # 21 is the floor the jar targets; 25 is the current JDK devs actually run.
         jdk: [21, 25]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
