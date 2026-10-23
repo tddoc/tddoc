@@ -10,6 +10,11 @@ updates:
     groups:
       minor-and-patch:
         update-types: [minor, patch]
+    ignore:
+      # compileOnly API supplied by the user's Maven; keep it on 3.9.x (see the
+      # comment in libs.versions.toml). Patches still flow.
+      - dependency-name: org.apache.maven:maven-plugin-api
+        versions: [">= 3.10"]
 
   - package-ecosystem: github-actions
     directory: /
