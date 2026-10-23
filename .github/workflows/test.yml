@@ -18,5 +18,5 @@ jobs:
         with:
           distribution: temurin
           java-version: ${{ matrix.jdk }}
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v5
       - run: ./gradlew build -PtoolchainJdk=${{ matrix.jdk }}
