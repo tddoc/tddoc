@@ -2,6 +2,8 @@
 junit = "6.1.3"
 mavenPublish = "0.37.0"
 mavenPluginDev = "1.0.3"
+# compileOnly: Maven supplies this at runtime. Stay on the oldest line users
+# commonly run (3.9.x) so the Mojo cannot pick up newer-only API.
 mavenPluginApi = "3.9.16"
 mavenPluginAnnotations = "3.16.0"
 
